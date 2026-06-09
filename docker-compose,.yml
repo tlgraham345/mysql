@@ -1,0 +1,14 @@
+services:
+  db:
+    image: mysql:latest
+    container_name: mysql
+    environment:
+    ports:
+    volumes:
+    restart: always
+    labels:
+    # (this is just an example, not intended to be a production configuration)
+networks:
+  default:
+    name:
+    driver:
